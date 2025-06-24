@@ -40,8 +40,6 @@ google
 gemini
 deepmind
 
-chatgpt
-openai
 
 claude
 Anthropic
@@ -51,9 +49,6 @@ ipad
 mac
 ios
 
-ai
-!gai
-人工智能
 
 汽车
 自动驾驶
@@ -65,26 +60,34 @@ l3
 半导体
 光刻机
 
+华为
+OPPO
++手机
 
+华为
+OPPO
++新品
 
 苹果
-库克
-+科技
-!水果
-!手机壳
+三星  
++发布
 
-linux
-golang
-mysql
-pgsql
-redis
-oracle
+手机
+销量
++市场
+
+A股
+上证
+深证
++涨跌
+!预测
+
+
+人工智能
+AI  
+ChatGPT
 +技术
-
-美团
-京东
-淘宝
-小米
-+科技
+!广告
+!培训
 
 
