@@ -2445,14 +2445,15 @@ class NewsAnalyzer:
             ("toutiao", "今日头条"),
             ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
-            ("thepaper", "澎湃新闻"),
             ("bilibili-hot-search", "bilibili 热搜"),
-            ("cls-hot", "财联社热门"),
-            ("ifeng", "凤凰网"),
             "tieba",
             "weibo",
             "douyin",
             "zhihu",
+            "v2ex",
+            "juejin",
+            "linuxdo",
+            "github",
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
