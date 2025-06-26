@@ -1,0 +1,121 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 287</p><p>生成时间: 2025-06-27 02:18:45</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>linuxdo</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.05%</td>
+                    <td class="titles">[github] <a href="https://github.com/microsoft/edit" target="_blank" class="news-link">microsoft /      edit</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时18分</font><br>[github] <a href="https://github.com/microsoft/ML-For-Beginners" target="_blank" class="news-link">microsoft /      ML-For-Beginners</a> [13] <font color='grey'>- 02时18分</font><br>[github] <a href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" class="news-link">microsoft /      generative-ai-for-beginners</a> [15] <font color='grey'>- 02时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7520271565175426598/" target="_blank" class="news-link">YU7对特斯拉Model Y</a> [22] <font color='grey'>- 02时18分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7520271565657755145/" target="_blank" class="news-link">雷军回应特斯拉下战书</a> [25] <font color='grey'>- 02时18分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749792" target="_blank" class="news-link">英伟达涨超4%创历史新高，力撑纳指三连涨，原油反弹，美元近三年低位</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时18分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3749841" target="_blank" class="news-link">AI之后英伟达最大机遇！黄仁勋力捧机器人技术，英伟达股价历史新高</a> [8] <font color='grey'>- 02时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E4%BA%AC%E4%B8%9C%E5%9B%9E%E5%BA%94%E5%A4%96%E5%8D%96%E5%91%98%E5%B8%AE%E6%89%94%E5%9E%83%E5%9C%BE%E6%AF%8F%E5%8D%950.5%E5%85%83%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">京东回应外卖员帮扔垃圾每单0.5元</a> [20] <font color='grey'>- 02时18分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1141275" target="_blank" class="news-link">gemini-cli 这个 agent 开源项目才发布一天已经 21K star 了。值得了解下</a> [12] <font color='grey'>- 02时18分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7520271565657755145/" target="_blank" class="news-link">雷军回应特斯拉下战书</a> [25]</li></ul></div>
+        </body>
+        </html>
+        
