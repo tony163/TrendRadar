@@ -1,0 +1,129 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 285</p><p>生成时间: 2025-10-14 06:53:14</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>linuxdo</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1960113239108093233" target="_blank" class="news-link">比亚迪第 1400 万辆新能源车在巴西下线，总统卢拉成为车主，为什么选择在巴西？你怎样看待这一成就？</a> [16] <font color='grey'>- 06时53分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B7%B4%E8%A5%BF%E6%80%BB%E7%BB%9F%E5%8D%A2%E6%8B%89%E7%89%B5%E8%B5%B7%E7%8E%8B%E4%BC%A0%E7%A6%8F%E7%9A%84%E6%89%8B" target="_blank" class="news-link">巴西总统卢拉牵起王传福的手</a> [29] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1164991" target="_blank" class="news-link">写八股文用 Gemini 还是 grok3？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时53分</font><br>[juejin] <a href="https://juejin.cn/post/7559444187692990514" target="_blank" class="news-link">Google禁用“一次性抓取100条搜索结果”，SEO迎来变革？</a> [30] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[juejin] <a href="https://juejin.cn/post/7559875444817526847" target="_blank" class="news-link">深入理解 Flutter 的 PlatformView 如何在鸿蒙平台实现混合开发</a> [13] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/662242577" target="_blank" class="news-link">想知道特斯拉电耗低的主要原因有哪些呢？</a> [12] <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757056" target="_blank" class="news-link">超预期！中国9月以美元计价出口同比增长8.3%，进口同比增7.4% 工业机器人和风电出口增长强劲</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">贸易紧张局势缓和，美股强劲反弹，芯片股领涨，黄金突破4100关口，期银大涨7%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时53分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3757049" target="_blank" class="news-link">贸易紧张局势缓和，美股强劲反弹，芯片股领涨，黄金突破4100关口，期银大涨7%</a> <font color='red'><strong>[1]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
