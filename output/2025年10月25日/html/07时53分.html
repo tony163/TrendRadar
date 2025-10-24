@@ -1,0 +1,121 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 289</p><p>生成时间: 2025-10-25 07:53:31</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>linuxdo</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.69%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%AF%94%E4%BA%9A%E8%BF%AA%E8%85%BE%E5%8A%BF%E6%80%BB%E7%BB%8F%E7%90%86%E8%B5%B5%E9%95%BF%E6%B1%9F%E7%A6%BB%E8%81%8C" target="_blank" class="news-link">比亚迪腾势总经理赵长江离职</a> [14] <font color='grey'>- 07时53分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1964991158896792248" target="_blank" class="news-link">比亚迪腾势方程豹直营事业部总经理赵长江离职，如何看待他的选择？可能会对比亚迪带来哪些影响？</a> [18] <font color='grey'>- 07时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[juejin] <a href="https://juejin.cn/post/7563860666349862962" target="_blank" class="news-link">OCR的新高度？PaddleOCR-VL 与 DeepSeek-OCR 的技术与应用横评</a> [8] <font color='grey'>- 07时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E7%89%B9%E6%96%AF%E6%8B%89%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91%E8%B6%853600%E4%BA%BF%E5%85%83" target="_blank" class="news-link">美股收盘：特斯拉市值蒸发超3600亿元</a> [18] <font color='grey'>- 07时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1168235" target="_blank" class="news-link">如何解决获取 Googleplay 内购商品报错的问题</a> [6] <font color='grey'>- 07时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">人工智能 AI ChatGPT</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[v2ex] <a href="https://www.v2ex.com/t/1168093" target="_blank" class="news-link">一个纯粹技术人编写的 AI 手机输入法（Powered by rime）</a> [28] <font color='grey'>- 07时53分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E7%89%B9%E6%96%AF%E6%8B%89%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91%E8%B6%853600%E4%BA%BF%E5%85%83" target="_blank" class="news-link">美股收盘：特斯拉市值蒸发超3600亿元</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
