@@ -1,0 +1,145 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 284</p><p>生成时间: 2025-11-11 07:52:59</p>
+            <div class="error">
+                <h2>请求失败的平台</h2>
+                <ul>
+            <li>linuxdo</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.06%</td>
+                    <td class="titles">[github] <a href="https://github.com/google/adk-go" target="_blank" class="news-link">google /      adk-go</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时52分</font><br>[juejin] <a href="https://juejin.cn/post/7570260758061170723" target="_blank" class="news-link">Android Studio + Gemini：重塑安卓 AI 开发新范式</a> [9] <font color='grey'>- 07时52分</font><br>[v2ex] <a href="https://www.v2ex.com/t/1171714" target="_blank" class="news-link">[测试邀请] 做了个把手机变成无线鼠标的 APP（鼠标侠），用来遥控电脑看电视，准备上架 Google Play，现在邀请大家来测试。</a> [21] <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.7%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346932&amp;amp;topic_name=4.99%E4%B8%87%E8%B5%B7%E5%94%AE%2C%E4%BA%AC%E4%B8%9C%E6%B1%BD%E8%BD%A6%E5%8D%B7%E6%AD%BB%E5%90%8C%E8%A1%8C" target="_blank" class="news-link">4.99万起售,京东汽车卷死同行</a> [13] <font color='grey'>- 07时52分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7571001834857303593/" target="_blank" class="news-link">一辆4.99万的车藏着京东怎样的棋局</a> [23] <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">胖东来 于东来</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1970931863372652889" target="_blank" class="news-link">胖东来 2025 年销售额已突破 200 亿，比去年全年高出 30 亿，如何评价这一业绩水平？</a> [10] <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346921&amp;amp;topic_name=%E9%B8%BF%E8%92%99%E7%94%A8%E6%88%B7%E5%A4%A7%E8%BF%81%E5%BE%99%2C%E7%BD%91%E6%98%93%E4%BA%91%E6%83%A8%E9%81%AD%E6%8A%9B%E5%BC%83" target="_blank" class="news-link">鸿蒙用户大迁徙,网易云惨遭抛弃</a> [15] <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[github] <a href="https://github.com/microsoft/call-center-ai" target="_blank" class="news-link">microsoft /      call-center-ai</a> [10] <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759018" target="_blank" class="news-link">美政府关门有望结束，科技股引领纳指大反弹，英伟达涨近6%，金银大涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时52分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">机器人</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28346931&amp;amp;topic_name=%E8%83%B8%E9%83%A8%E8%AE%BE%E8%AE%A1%E6%93%A6%E8%BE%B9%2C%E5%B0%8F%E9%B9%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A2%AB%E6%89%B9%E5%AA%9A%E7%94%B7" target="_blank" class="news-link">胸部设计擦边,小鹏机器人被批媚男</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时52分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">A股 上证 深证</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.35%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3759020" target="_blank" class="news-link">A股涨跌互现，创业板跌0.9%，大消费集体爆发，港股全线收涨，恒指涨超1%</a> [10] <font color='grey'>- 07时52分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>华尔街见闻 (2 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3759018" target="_blank" class="news-link">美政府关门有望结束，科技股引领纳指大反弹，英伟达涨近6%，金银大涨</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://wallstreetcn.com/articles/3759020" target="_blank" class="news-link">A股涨跌互现，创业板跌0.9%，大消费集体爆发，港股全线收涨，恒指涨超1%</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
